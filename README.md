@@ -46,7 +46,7 @@ This project is fully containerized to ensure it runs consistently on any machin
 
 1. **Clone the repository and enter the directory:**
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/thulasisadhvi/-Character-Level-Text-Generation
 cd pytorch
 
 ```
