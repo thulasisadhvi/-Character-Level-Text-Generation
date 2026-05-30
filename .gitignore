@@ -1,0 +1,21 @@
+# Sensitive Information (Never commit these!)
+.env
+.env.*
+
+# Python & Virtual Environments
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# PyTorch / Machine Learning artifacts
+*.pth
+*.pt
+models/
+results/
+dataset/
+input/
+
+# macOS System Files
+.DS_Store

@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    volumes:
+      - ./input:/app/input
+      - ./results:/app/results
+      - ./models:/app/models
+    environment:
+      - PYTHONUNBUFFERED=1
